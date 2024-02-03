@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+        <title> Biz bilan bog`lanish </title>
+         <style>
+            .field{
+                margin-bottom: 5px;
+                text-align: center;
+               
+            }
+             h3{
+                text-align: center;
+             }
+              header{
+                text-align: center;
+              }
+              
+         </style>
+        
+    </head>
+      <body background="colorback.jpg" > 
+         
+        <header>
+            <img src="edulogo.png" alt="Profile photo" id="profile-photo" >
+                <h2> O`quv markaz </h2>
+                 
+        </header>
+           
+           <h3> Barcha kurslarga qabul! </h3>
+           <form action="contact.php"  method="get">
+            <div class="field" >
+                
+            <label for="ism"> ism </label>
+            <input type="text" name="ism" id="ism"> <br><br>
+            <label for="familya">familya</label>
+            <input type="text" name="familya"  id="familya"> <br><br>
+            <label for="Telefon ">Telefon</label>
+            <input type="tel" name="Telefon" id="Telefon"><br><br>
+            <label for="email">Emailingiz</label> 
+              <input type="email" name="email" id="email" > <br><br>
+            <label for="sana">Tug`ilgan sana</label>
+            <input type="date" name="date" id="sana"> <br><br>
+            <label for="tajriba"> Kurs nomi</label>
+            <select name="experince " id=" kurs nomi ">
+            <option value="0">Ingliz tili</option>
+            <option value="1"> Rus tili</option>
+            <option value="2">Dasturlash</option>
+            </select>
+            <br><br>
+            <label for="haqida"> Qo`shimcha ma`lumot</label> <br><br>
+            <textarea name="about " id="haqida" rows="3" cols="50" ></textarea> <br>
+            <button type="submit">Ro`yhatdan o`tish</button>
+      </body>
+  </html>
